@@ -5,8 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
@@ -70,8 +69,6 @@ body {
 .wrapper {
   overflow: hidden;
   min-height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
 }
@@ -718,14 +715,14 @@ textarea .form__input{
 
 .info-contacts__item {
 	color: #fff;
-	font-style: 16px;
+	font-size: 16px;
 	line-height: 1.37;
 }
 .info-contacts__item:hover{
 	text-decoration:underline;
 }
 .info-contacts__text {
-	font-style: 16px;
+	font-size: 16px;
 	line-height: 1.37;
 }
 
